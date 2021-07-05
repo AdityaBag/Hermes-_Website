@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hermes Racing</title>
+        <link rel = "stylesheet" href = "style.css">
+        <link rel = "preconnect" href = "https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <section class = "header">
+            <nav>
+                <a href = "index.html"><img src = "images/logo.png"></a>
+                <div class = "nav-links" id = "navlinks">
+                <i class = "fa fa-times" onclick = "hidemenu()"></i>
+                <ul>
+                    <li><a href = "">HOME</a></li>
+                    <li><a href = "">ABOUT</a></li>
+                    <li><a href = "">CARS</a></li>
+                    <li><a href = "">EVENTS</a></li>
+                    <li><a href = "">GALLERY</a></li>
+                    <li><a class = "cta" href = "contact_page.html"><button>CONTACT</button></a></li>
+                </ul>
+                </div>
+                <i class = "fa fa-bars" onclick = "showmenu()"></i>
+            </nav>
+            <div class = "text-box">
+                <h1>Welcome to Hermes</h1>
+                <p>Formula Student team competing all around the world<br><br>KIIT UNIVERSITY, INDIA</p>
+                <a href = ""class = "knowmore">Know more</a>
+            </div>
+        </section>
+    <!-------------------------------------------javascript for toggle menu--------------------------------------------->
+    <script>
+        var navlinks = document.getElementById("navlinks")
+
+        function showmenu(){
+            navlinks.style.right = "0";
+        }
+        function hidemenu(){
+            navlinks.style.right = "-200px";
+        }
+    </script>
+    <!------------------------------------------------------------------------------------------------------------------>
+    <section class = "about">
+        <h1 style = "text-align: center;">ABOUT US</h1>
+        <br></br>
+        <div class = "row">
+            <div class ="about-col">
+                <h1>Team Principle</h1>
+                <p>To be honest I enjoyed every part of this internship, be it be the close deadlines or confusing tasks, it was all a good learning opportunity, learning about the workings of excel spreadsheet was interesting and something new to me when I first started and due to this I am now confident in doing it further on. Learning to be independently able to understand case studies, evaluate it and provide solutions as a consultant, making diagrams, PowerPoints and more. Most importantly, amidst this tough time for all of us, you have guided us to be more disciplined and hardworking by connecting with us almost as friends and helped us come to love this lifestyle of working towards something each day, it has a productive month. I would like to say my favourite memory from all this was the fun Friday sessions, it really did help us know our peers more closely and have a bit of fun while we’re at it and it surely helped boost my self-confidence. I hope to be part of this journey for longer, but whatever the future has in store for me, thank you again!</p>
+            </div>
+            <div class = "about-col">
+                <h1>History</h1>
+                <p>To be honest I enjoyed every part of this internship, be it be the close deadlines or confusing tasks, it was all a good learning opportunity, learning about the workings of excel spreadsheet was interesting and something new to me when I first started and due to this I am now confident in doing it further on. Learning to be independently able to understand case studies, evaluate it and provide solutions as a consultant, making diagrams, PowerPoints and more. Most importantly, amidst this tough time for all of us, you have guided us to be more disciplined and hardworking by connecting with us almost as friends and helped us come to love this lifestyle of working towards something each day, it has a productive month. I would like to say my favourite memory from all this was the fun Friday sessions, it really did help us know our peers more closely and have a bit of fun while we’re at it and it surely helped boost my self-confidence. I hope to be part of this journey for longer, but whatever the future has in store for me, thank you again!</p>
+                <a href = ""class = "history-readmore">Read more</a>
+                <br></br>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
